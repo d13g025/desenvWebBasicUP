@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/2204194-tecnologia-fundo-design-na-cor-branca-vetor.jpg);
+    }
+/*--------*/
+footer{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+/*--------*/
+.limenu{
+    list-style: none;
+    display: inline;  /*para tirar a lista d bloco p linha*/
+    margin: 4% 4% 4% 4%;
+    padding: 1%; /*espaco do q ta dentro p borda*/
+    font-size: 20px;
+}
+/*--------*/
+nav{
+    background-color: #04eaea;
+    padding: 2%;
+}
+/*--------*/
+.nomeh1{
+    text-align: center;
+}
+hr {
+    border: 1px solid #ddd; /* Cor da linha e espessura */
+    margin: 0; /* Remove a margem padrão do elemento hr */
+}
+
+/* Estilos para o quadro de texto oculto */
+.texto-oculto {
+    display: none;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Mostrar o quadro de texto quando o link é clicado */
+.menu li:hover .texto-oculto {
+    display: block;
+}
