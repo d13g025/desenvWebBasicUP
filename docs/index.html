@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Divs com Comportamento de Mostrar/Ocultar</title>
+    <title>Diego Araujo Souza</title>
     <link rel="stylesheet" href="./css/estilo.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"> 
 </head>
 <body>
   <body style="background-image: url(./img_fundo/fundo-aquarela-com-folhas_91008-314.webp);">
+    <div>
     <header>
       <div class="titulo">
         <img src="./img/fotocv.jpg" alt="">
         <h1>DIEGO ARAUJO SOUZA</h1>
-      </div>
+      </div></div>
     </header>
-  <div>  
+  <div class="conteudo">  
     <div class="div-visivel" onclick="mostrarOcultar(1)"><strong>Sobre</strong></div>
     <div class="div-oculta" id="oculta-1">
       <p>
@@ -78,21 +79,23 @@
 
     <div class="div-visivel" onclick="mostrarOcultar(5)"><strong>Hobbies</strong></div>
     <div class="div-oculta" id="oculta-5">
-      <p><br>No meu tempo livre, minha abordagem é verdadeiramente eclética. Em alguns dias, desfruto da serenidade de ficar em casa, recarregando minhas energias com um bom sono ou maratonando séries. Adoro convidar amigos para compartilhar momentos descontraídos em casa, mas também sou cativado pela agitação de shows, baladas e passeios em shoppings. Uma paixão que transcende minha rotina é viajar e explorar novos lugares, mesmo que não o faça com a frequência que gostaria. Quanto aos esportes, confesso que não sou exatamente um atleta nato, mas já tive uma experiência enriquecedora com o Yoga. No entanto, desde minha mudança para Londrina, ainda não encontrei um novo grupo para praticar essa atividade que tanto me relaxava.</p>
+      <p>No meu tempo livre, minha abordagem é verdadeiramente eclética. Em alguns dias, desfruto da serenidade de ficar em casa, recarregando minhas energias com um bom sono ou maratonando séries. Adoro convidar amigos para compartilhar momentos descontraídos em casa, mas também sou cativado pela agitação de shows, baladas e passeios em shoppings. Uma paixão que transcende minha rotina é viajar e explorar novos lugares, mesmo que não o faça com a frequência que gostaria. Quanto aos esportes, confesso que não sou exatamente um atleta nato, mas já tive uma experiência enriquecedora com o Yoga. No entanto, desde minha mudança para Londrina, ainda não encontrei um novo grupo para praticar essa atividade que tanto me relaxava.</p>
     </div>
   </div>
-    <script>
-        function mostrarOcultar(id) {
-            var divOculta = document.getElementById("oculta-" + id);
-            
-            // Alternar a visibilidade da div oculta
-            if (divOculta.style.display === "none" || divOculta.style.display === "") {
-                divOculta.style.display = "block";
-            } else {
-                divOculta.style.display = "none";
-            }
-        }
-    </script>
+  <script>
+    function mostrarOcultar(id) {
+        // Ocultar todas as divs ocultas
+        var divsOcultas = document.querySelectorAll('.div-oculta');
+        divsOcultas.forEach(function(divOculta) {
+            divOculta.style.display = "none";
+        });
+
+        // Mostrar a div específica
+        var divOculta = document.getElementById("oculta-" + id);
+        divOculta.style.display = "block";
+    }
+</script>
+
 
 <!--rodapé-->
 <footer>
