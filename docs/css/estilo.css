@@ -2,29 +2,31 @@ body{
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
+    width: 100%;
+    margin: 0;
 }
 
 header {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    padding: 0.5rem 1rem;
     font-size: 20px;
-  }
-  
-  img {
-    border-radius: 50%;
-    width: 200px;
-  } 
-  
-.titulo{
     text-align: center;
     align-items: center;
-    width: 1400px;
+    width: 100%;    
+}
+  
+img {
+    margin-right: 0px;
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+} 
+  
+.titulo{
+    width: 100%;
 
 }
  /* Estilizando as divs visíveis */
  .div-visivel {
-    width: 1400px;
+    width: 95%;
     height: 50px;
     background-color: lightblue;
     margin: 10px;
@@ -47,5 +49,9 @@ header {
 #contatos{
     text-align: center;
     align-items: center;
-    width: 1400px;
+    width: 100%;
+}
+.conteudo {
+    width: 100%;
+    padding: 20px; /* Adicione um espaço ao redor do conteúdo para melhorar a leitura */
 }
