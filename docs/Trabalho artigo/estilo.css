@@ -1,0 +1,37 @@
+body {
+    background-color: #f0f0f0; /* Cor de fundo */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto no cabeçalho */
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #da7676d6;
+}
+
+h2 {
+    font-size: 24px;
+    color: #444;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+}
+
+article {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}

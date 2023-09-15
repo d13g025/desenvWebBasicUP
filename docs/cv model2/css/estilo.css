@@ -1,0 +1,57 @@
+body{
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    width: auto;
+    margin: 0;
+}
+
+header {
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    width: 100%;    
+}
+  
+img {
+    margin-right: 0px;
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+} 
+  
+.titulo{
+    width: auto;
+
+}
+ /* Estilizando as divs visíveis */
+ .div-visivel {
+    width: auto;
+    height: 50px;
+    background-color: lightblue;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* Estilizando as divs ocultas */
+.div-oculta {
+    display: none;
+    background-color: lightgray;
+    margin: 10px;
+    padding: 10px;
+}
+
+#logos{
+    font-size: 50px;
+}
+#contatos{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+.conteudo {
+    width: auto;
+    padding: 20px; /* Adicione um espaço ao redor do conteúdo para melhorar a leitura */
+}

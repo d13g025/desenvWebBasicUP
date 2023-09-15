@@ -1,0 +1,37 @@
+body{
+    background-image: url(https://img.freepik.com/fotos-gratis/fundo-aquarela-pintado-a-mao-com-forma-de-ceu-e-nuvens_24972-1095.jpg?w=2000);
+}
+h1{
+    text-align: center;
+}
+
+.container{
+    width: auto;
+    height: auto;
+    background-color: rgba(118, 118, 123, 0.245);
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+img{
+    width: 200px;
+    height: 150px;
+    justify-content: right;
+    text-align: right;
+    border-radius: 50%;
+}
+
+ul{
+    text-align: center;
+    margin: 100px;
+}
+.btn{
+    background-color: rgba(14, 14, 117, 0.245);
+    font-size: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+    padding: 15px 20px
+}
+.btn:hover{ /*quando passar o mouse, ele muda d cor*/
+    background-color: #505356;
