@@ -21,12 +21,12 @@ img {
 } 
   
 .titulo{
-    width: 100%;
+    width: auto;
 
 }
  /* Estilizando as divs visíveis */
  .div-visivel {
-    width: 100%;
+    width: auto;
     height: 50px;
     background-color: lightblue;
     margin: 10px;
@@ -37,7 +37,6 @@ img {
 
 /* Estilizando as divs ocultas */
 .div-oculta {
-    width: 100%;
     display: none;
     background-color: lightgray;
     margin: 10px;
@@ -53,6 +52,6 @@ img {
     width: 100%;
 }
 .conteudo {
-    width: 100%;
+    width: auto;
     padding: 20px; /* Adicione um espaço ao redor do conteúdo para melhorar a leitura */
 }
