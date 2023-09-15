@@ -82,17 +82,25 @@
       <p>No meu tempo livre, minha abordagem é verdadeiramente eclética. Em alguns dias, desfruto da serenidade de ficar em casa, recarregando minhas energias com um bom sono ou maratonando séries. Adoro convidar amigos para compartilhar momentos descontraídos em casa, mas também sou cativado pela agitação de shows, baladas e passeios em shoppings. Uma paixão que transcende minha rotina é viajar e explorar novos lugares, mesmo que não o faça com a frequência que gostaria. Quanto aos esportes, confesso que não sou exatamente um atleta nato, mas já tive uma experiência enriquecedora com o Yoga. No entanto, desde minha mudança para Londrina, ainda não encontrei um novo grupo para praticar essa atividade que tanto me relaxava.</p>
     </div>
   </div>
-  <script>
+ <script>
     function mostrarOcultar(id) {
-        // Ocultar todas as divs ocultas
-        var divsOcultas = document.querySelectorAll('.div-oculta');
-        divsOcultas.forEach(function(divOculta) {
-            divOculta.style.display = "none";
-        });
-
-        // Mostrar a div específica
+        // Encontra a div específica
         var divOculta = document.getElementById("oculta-" + id);
-        divOculta.style.display = "block";
+
+        // Verifica se a div está visível ou não
+        if (divOculta.style.display === "none" || divOculta.style.display === "") {
+            // Se estiver oculta, mostra
+            divOculta.style.display = "block";
+        } else {
+            // Se estiver visível, oculta
+            divOculta.style.display = "none";
+        }
+
+        // Fecha outras divs que estejam abertas
+        var divsVisiveis = document.querySelectorAll('.div-oculta:not(#oculta-' + id + ')');
+        divsVisiveis.forEach(function(divVisivel) {
+            divVisivel.style.display = "none";
+        });
     }
 </script>
 
