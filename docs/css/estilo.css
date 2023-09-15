@@ -37,7 +37,7 @@ img {
 
 /* Estilizando as divs ocultas */
 .div-oculta {
-    width: 95%;
+    width: 100%;
     display: none;
     background-color: lightgray;
     margin: 10px;
