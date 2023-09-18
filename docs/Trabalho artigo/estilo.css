@@ -1,37 +1,29 @@
-body {
-    background-color: #f0f0f0; /* Cor de fundo */
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+body{
+    background-image: url(https://res.cloudinary.com/practicaldev/image/fetch/s--aIigVlQp--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kb1t4t2wit466hzlvet2.gif);
+    background-size: 100%;
+    
 }
-
-header {
-    background-color: #333; /* Cor de fundo do cabeçalho */
-    color: #fff; /* Cor do texto no cabeçalho */
+header{
     text-align: center;
-    padding: 20px;
+    font-size: 50px;
+    font-display: fixed;
+    background-color: black;
+    color: tomato;
+    margin: 15px 100px 15px 100px;
+    border-radius: 30px;
 }
-
-h1 {
-    font-size: 36px;
-    color: #da7676d6;
+.introducao{
+    text-align: justify;
+    font-size: 20px;
+    padding: 20px 100px 20px 100px;
+    background-color: rgba(250, 235, 215, 0.366);
+    border-radius: 55px;
 }
+.topicos{
+    text-align: justify;
+    font-size: 20px;
+    padding: 20px 100px 20px 100px;
+    background-color: rgba(250, 235, 215, 0.366);
+    border-radius: 55px;
 
-h2 {
-    font-size: 24px;
-    color: #444;
-}
-
-p {
-    font-size: 16px;
-    line-height: 1.5;
-    color: #666;
-}
-
-article {
-    background-color: #fff;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
