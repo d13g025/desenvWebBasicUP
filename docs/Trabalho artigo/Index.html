@@ -3,37 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Artigo: Tags HTML Estudadas</title>
     <link rel="stylesheet" href="./estilo.css">
+    <title>Apostila HTML e CSS</title>
 </head>
 <body>
-    <header>
-        <h1>Tags HTML Mais Comuns</h1>
-    </header>
+    <header>Artigo HTML e CSS</header>
+    <div>
+    <div class="introducao">
+        <hr>
+        <h2>Introducao</h2>
+        <p>O HTML, ou Linguagem de Marcação de Hipertexto, é a pedra angular da internet moderna. Ele serve como a linguagem fundamental para estruturar e organizar o conteúdo das páginas da web. Imagine o HTML como o esqueleto de uma página web, fornecendo a estrutura que permite aos navegadores entenderem como apresentar informações, como texto, imagens e links. Cada elemento HTML age como um bloco de construção, e combinando-os de maneiras criativas, os desenvolvedores podem criar páginas web impressionantes e funcionais.</p>
+        <p>Enquanto o HTML dá forma e estrutura ao conteúdo de uma página web, o CSS, ou Folhas de Estilo em Cascata, é a ferramenta que confere estilo e beleza a essa estrutura. Com o CSS, os desenvolvedores têm o poder de controlar a aparência visual de cada elemento HTML. Isso inclui a escolha de cores, fontes, margens, espaçamentos e layouts. Imagine o CSS como o designer de interiores da web, decidindo como os elementos devem ser dispostos e estilizados para criar uma experiência de usuário atraente e harmoniosa. Juntos, o HTML e o CSS formam um duo poderoso que possibilita a criação das páginas web que navegamos todos os dias na internet.
+        </p>
+        <p>A seguir uma breve explicação das principais tags.</p>
+        </div>
+    <div class="topicos">
+        <hr>
+        <h2>Estrutura da Pagina HTML</h2>
+        <p>
+            Uma pagina HTML é composta por: <br> 
+            <li>&lt;!DOCTYPE html&gt;: indica para o navegador utilizar a versão mais recente do HTML (HTML5)</li>
+            <li>&lt;html lang="pt-br"&gt;: indica para o navegador que a pagina é HTML e a Lang indica o tipo de idioma a ser exibido</li>
+            <li>&lt;Head&gt;: e a tag que apresenta informações gerais sobre a página e de configuração</li>
+            <li>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;: essa tag esta dentro da Head e é usada para informar o ajuste que a pagina apresentara no navegador.</li>
+            <li>&lt;Title&gt;: é a tag que informa o título de uma página na
+            barra do navegador;</li>
+            <li>&lt;Body&gt;: e a tag que delimita o conteúdo da página</li>
+            <li>&lt;Link&gt;: é usada principalmente para conectar seu documento HTML a recursos externos, como folhas de estilo (CSS), ícones, arquivos de fonte e até mesmo feeds RSS. Ela fornece informações ao navegador sobre onde encontrar e como tratar esses recursos.</li><br>
+            <p>Uma informação importante a ser comentada é que a / dentro das tags é a delimitaçao que a tag esta fechada, porém nao são todas as tags que necessitam serem fechadas</p>
+        </p>
+    </div>
+    <div class="topicos">
+        <hr>
+        <h2>Tags de Texto</h2>
+        <p>Essas tags definem o conteúdo e a formatação de um documento HTML. Elas são usadas para estruturar o conteúdo de um documento, para formatar o texto, para adicionar imagens e outros elementos, etc...
+        <li>&lt;p&gt;: essa tag define um paragrafo de um texto;</li>
+        <li>&lt; h1/h2/...h6 &gt; a tag H define um titulo, subtitulo, sendo que H1 é a mais importante, indo até H6 em grau de importancia.</li>
+        <li>&lt;strong&gt;: essa Tag funciona como o comando <strong>negrito</strong> que usamos nos editores de texto;</li>
+        <li>&lt;cite&gt;: aqui o texto ou palavra que é usado entre essa Tag fica em <cite>italico</cite>;</li>
+            
 
-    <article>
-        <h2>Tag &lt;h1&gt; a &lt;h6&gt;</h2>
-        <p>As tags de cabeçalho são usadas para definir títulos e subtítulos em uma página HTML. Elas variam de <code>&lt;h1&gt;</code> a <code>&lt;h6&gt;</code>, onde <code>&lt;h1&gt;</code> é o título mais expressivo e <code>&lt;h6&gt;</code> o menos expressivo.</p>
-    </article>
+        </p>
+   
+    </div>
+</div>
 
-    <article>
-        <h2>Tag &lt;p&gt;</h2>
-        <p>A tag <code>&lt;p&gt;</code> é usada para criar parágrafos de texto em seu documento HTML.</p>
-    </article>
-
-    <article>
-        <h2>Tag &lt;a&gt;</h2>
-        <p>A tag <code>&lt;a&gt;</code> é usada para criar links. O atributo <code>href</code> especifica o destino do link.</p>
-    </article>
-
-    <article>
-        <h2>Tag &lt;div&gt;</h2>
-        <p>A tag <code>&lt;div&gt;</code> é usada para criar divisões em seu documento, que podem ser estilizadas e manipuladas com CSS e JavaScript.</p>
-    </article>
-
-    <article>
-        <h2>Tag &lt;footer&gt;</h2>
-        <p>A tag <code>&lt;footer&gt;</code> é usada para definir um rodapé em uma seção ou página.</p>
-    </article>
+    
 </body>
 </html>
