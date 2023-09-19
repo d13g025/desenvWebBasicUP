@@ -9,14 +9,20 @@
 <body>
     <header>Artigo HTML e CSS</header>
     <div>
-    <div class="introducao">
+        <ul>
+            <a href="#html"><LI class="menu">HTML</LI></a>
+           <a href="#Css"><LI class="menu">CSS</LI></a> 
+        </ul>
+    </div>
+<div class="introducao">
         <hr>
-        <h2>Introducao</h2>
+        <h2 style="text-align: center">Introducao</h2>
         <p>O HTML, ou Linguagem de Marcação de Hipertexto, é a pedra angular da internet moderna. Ele serve como a linguagem fundamental para estruturar e organizar o conteúdo das páginas da web. Imagine o HTML como o esqueleto de uma página web, fornecendo a estrutura que permite aos navegadores entenderem como apresentar informações, como texto, imagens e links. Cada elemento HTML age como um bloco de construção, e combinando-os de maneiras criativas, os desenvolvedores podem criar páginas web impressionantes e funcionais.</p>
         <p>Enquanto o HTML dá forma e estrutura ao conteúdo de uma página web, o CSS, ou Folhas de Estilo em Cascata, é a ferramenta que confere estilo e beleza a essa estrutura. Com o CSS, os desenvolvedores têm o poder de controlar a aparência visual de cada elemento HTML. Isso inclui a escolha de cores, fontes, margens, espaçamentos e layouts. Imagine o CSS como o designer de interiores da web, decidindo como os elementos devem ser dispostos e estilizados para criar uma experiência de usuário atraente e harmoniosa. Juntos, o HTML e o CSS formam um duo poderoso que possibilita a criação das páginas web que navegamos todos os dias na internet.
         </p>
         <p>A seguir uma breve explicação das principais tags.</p>
-        </div>
+</div>
+<div id="html" class="topicos">
     <div class="topicos">
         <hr>
         <h2>Estrutura da Pagina HTML</h2>
@@ -121,7 +127,89 @@
         <li>
             &lt;span&gt;: é a tag que cria um contêiner para um pequeno trecho de texto;</li>
         </p>
-    </div>
+    </div></div>
 </div> 
+<div id="html" class="topicos">
+    <div class="topicos">
+        <hr>
+        <h2>Seletores em CSS</h2>
+        <p>
+            Os seletores CSS são usados para "encontrar" (ou selecionar) os elementos HTML que você deseja estilizar.
+            <li>
+                Seletor Universal: * {propriedade: valor;} - seleciona todos os elementos HTML da página;</li>
+            <li>
+                Seletor de Elemento: h1 {propriedade: valor;} - seleciona todos os elementos h1 da página;</li>
+            <li>
+                Seletor de ID: #id {propriedade: valor;} - seleciona o elemento com o id especificado;</li>
+            <li>
+                Seletor de Classe: .classe {propriedade: valor;} - seleciona todos os elementos com a classe especificada;</li>
+            <li>
+                Seletor de Atributo: [atributo] {propriedade: valor;} - seleciona todos os elementos com o atributo especificado;</li>
+        </p>
+    </div>
+    <div id="Css" class="topicos">
+        <hr>
+        <h2>Aplicador de CSS</h2>
+        <p>Existem 3 formas possíveis de aplicar CSS a sua pagina, sao elas:
+            <li>
+                Por arquivos externos: é a forma mais comum de aplicar CSS a uma página. Para isso, você deve criar um arquivo CSS separado e vinculá-lo ao seu documento HTML usando a tag link;</li>
+            <li>
+                Por tags internas: é uma forma de aplicar CSS a uma página sem a necessidade de criar um arquivo CSS separado. Para isso, você deve usar a tag style dentro da tag head;</li>
+            <li>
+                Inline: é uma forma de aplicar CSS a um elemento específico. Para isso, você deve usar o atributo style dentro da tag do elemento;</li>
+            </li>
+        </p>
+    </div>
+    <div class="topicos">
+        <hr>
+        <h2>Pricipais Comandos do CSS</h2>
+        <p>
+            <li>
+                background-color: define a cor de fundo de um elemento;</li>
+            <li>
+                color: define a cor do texto de um elemento;</li>
+            <li>
+                font-family: define a fonte do texto de um elemento;</li>
+            <li>
+                font-size: define o tamanho do texto de um elemento;</li>
+            <li>
+                font-weight: define o peso do texto de um elemento;</li>
+            <li>
+                text-align: define o alinhamento do texto de um elemento;</li>
+            <li>
+                width: define a largura de um elemento;</li>
+            <li>
+                height: define a altura de um elemento;</li>
+            <li>
+                margin: define a margem de um elemento;</li>
+            <li>
+                padding: define o preenchimento de um elemento;</li>
+            <li>
+                border: define a borda de um elemento;</li>
+            <li>
+                border-radius: define o raio da borda de um elemento;</li>
+            <li>
+                display: define o tipo de exibição de um elemento;</li>
+            <li>
+                position: define o tipo de posicionamento de um elemento;</li>
+            <li>
+                top: define a distância entre o elemento e o topo da página;</li>
+            <li>
+                right: define a distância entre o elemento e a direita da página;</li>
+            <li>
+                bottom: define a distância entre o elemento e o rodapé da página;</li>
+            <li>
+                left: define a distância entre o elemento e a esquerda da página;</li>
+            <li>
+                justify-content: define o alinhamento dos itens de um elemento;</li>
+            <li>
+                hover: define o estilo de um elemento quando o mouse está sobre ele;</li>
+            <li>
+                cursor: define o estilo do cursor do mouse quando ele está sobre um elemento;</li>
+            <li>
+                font-display define como a fonte será exibida;</li>
+        </p>
+    </div>
+</div>
 </body>
 </html>
